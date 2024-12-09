@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./site.css">
+
+    <title>Breed Imagess</title>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <h1>Put In A Breed And See How It Looks</h1>
+     <div class="navigation">
+        <a href="/index.html">Home</a>
+        <a href="/breedImages.html">Get Breed Images</a>
+        <a href="/luckybreed.html">Breed of The Day</a>
+    </div>
+
+    <div>
+        <input type="text" id="breed-input" placeholder="Enter breed name" class="breed-input" />
+        <button onclick="handleBreedGallery()" class="breed-button">Show Gallery</button>
+    </div>
+
+    <div id="gallery-container" class="gallery-container"></div>
+
+
+</body>
+
+</html>
